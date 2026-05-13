@@ -16,11 +16,14 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
+            flex: 1;
         }
 
         header {
@@ -257,6 +260,26 @@
             margin-bottom: 20px;
         }
 
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            font-size: 0.95em;
+            backdrop-filter: blur(10px);
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer strong {
+            color: #ffd700;
+            font-weight: 700;
+        }
+
         @media (max-width: 768px) {
             .main-content {
                 grid-template-columns: 1fr;
@@ -268,6 +291,10 @@
 
             header h1 {
                 font-size: 1.8em;
+            }
+
+            footer {
+                font-size: 0.85em;
             }
         }
     </style>
@@ -371,6 +398,12 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <p>💻 <strong>Desenvolvido por:</strong> Vitin Copilot & Victhor Gabriel</p>
+        <p>🏫 <strong>Escola:</strong> UDF - Universidade Distrito Federal</p>
+        <p>© 2026 - Sistema de Registro de Visitantes</p>
+    </footer>
 
     <!-- Modal para edição -->
     <div id="editModal" class="modal">
