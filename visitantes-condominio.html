@@ -18,49 +18,23 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        /* Background com imagem de condomínio */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><style>.building{fill:%23e8f4f8;stroke:%23667eea;stroke-width:2;opacity:0.15}</style></defs><g class="building"><rect x="50" y="300" width="180" height="450"/><rect x="60" y="320" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="100" y="320" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="140" y="320" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="60" y="380" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="100" y="380" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="140" y="380" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="60" y="440" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="100" y="440" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="140" y="440" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="60" y="500" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="100" y="500" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="140" y="500" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="60" y="560" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="100" y="560" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="140" y="560" width="30" height="40" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><polygon points="50,300 140,200 230,300" fill="%23b8d4e8" stroke="%23667eea" stroke-width="2"/></g><g class="building"><rect x="300" y="350" width="200" height="400"/><rect x="315" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="355" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="395" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="435" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="315" y="420" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="355" y="420" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="395" y="420" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="435" y="420" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="315" y="470" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="355" y="470" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="395" y="470" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="435" y="470" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><polygon points="300,350 400,220 500,350" fill="%23b8d4e8" stroke="%23667eea" stroke-width="2"/></g><g class="building"><rect x="550" y="280" width="160" height="470"/><rect x="565" y="310" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="605" y="310" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="645" y="310" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="565" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="605" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="645" y="370" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="565" y="430" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="605" y="430" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="645" y="430" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="565" y="490" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="605" y="490" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="645" y="490" width="25" height="35" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><polygon points="550,280 630,120 710,280" fill="%23b8d4e8" stroke="%23667eea" stroke-width="2"/></g><g class="building"><rect x="800" y="400" width="140" height="350"/><rect x="815" y="425" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="850" y="425" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="885" y="425" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="815" y="480" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="850" y="480" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="885" y="480" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="815" y="535" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="850" y="535" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><rect x="885" y="535" width="22" height="32" fill="%23d0e8f2" stroke="%23667eea" stroke-width="1"/><polygon points="800,400 870,280 940,400" fill="%23b8d4e8" stroke="%23667eea" stroke-width="2"/></g></svg>');
-            background-repeat: repeat;
-            background-size: 100%;
-            background-position: center;
-            z-index: 0;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             flex: 1;
-            position: relative;
-            z-index: 1;
         }
 
         header {
             text-align: center;
             color: white;
             margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         header h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        header p {
-            font-size: 1.1em;
-            letter-spacing: 0.5px;
         }
 
         .main-content {
@@ -74,8 +48,7 @@
             background: white;
             border-radius: 10px;
             padding: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .card h2 {
@@ -268,7 +241,7 @@
             padding: 20px;
             border-radius: 10px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .stat-number {
@@ -288,17 +261,13 @@
         }
 
         footer {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.15);
             color: white;
             text-align: center;
             padding: 20px;
             border-radius: 10px;
             margin-top: 30px;
             font-size: 0.95em;
-            backdrop-filter: blur(10px);
-            position: relative;
-            z-index: 1;
-            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         footer p {
@@ -325,14 +294,6 @@
 
             footer {
                 font-size: 0.85em;
-            }
-
-            table {
-                font-size: 0.9em;
-            }
-
-            td, th {
-                padding: 8px;
             }
         }
     </style>
