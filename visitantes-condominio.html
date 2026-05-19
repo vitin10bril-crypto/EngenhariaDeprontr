@@ -13,7 +13,17 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            
+            /* Imagem de fundo */
+            background: 
+                linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1920&auto=format&fit=crop');
+            
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
             min-height: 100vh;
             padding: 20px;
             display: flex;
@@ -261,13 +271,14 @@
         }
 
         footer {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.1);
             color: white;
             text-align: center;
             padding: 20px;
             border-radius: 10px;
             margin-top: 30px;
             font-size: 0.95em;
+            backdrop-filter: blur(10px);
         }
 
         footer p {
