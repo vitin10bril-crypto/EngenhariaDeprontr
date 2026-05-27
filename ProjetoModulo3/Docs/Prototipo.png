@@ -1,5 +1,7 @@
 ## Breve explicação de funcionamento
 
-Esta plataforma foi desenvolvida para auxiliar no controle de entrada e saída de visitantes em condomínios residenciais. O sistema permite registrar informações dos visitantes, como nome, apartamento, residente responsável, motivo da visita e horário de entrada. Após a permanência no condomínio, também é possível registrar a saída do visitante.
-
-Todos os dados ficam armazenados no sistema, permitindo consultas rápidas, edição de registros, exclusão de informações e exportação dos dados em formato CSV. Além disso, a plataforma apresenta estatísticas em tempo real, como total de visitantes, entradas e saídas do dia, proporcionando mais organização, segurança e praticidade no gerenciamento do condomínio.
+Esta plataforma foi desenvolvida para auxiliar no controle de entrada e saída de visitantes em condomínios residenciais.
+O sistema permite registrar informações dos visitantes, como nome, apartamento, residente responsável, motivo da visita e horário de entrada.
+Após a permanência no condomínio, também é possível registrar a saída do visitante.
+Todos os dados ficam armazenados no sistema, permitindo consultas rápidas, edição de registros, exclusão de informações e exportação dos dados em formato CSV.
+Além disso, a plataforma apresenta estatísticas em tempo real, como total de visitantes, entradas e saídas do dia, proporcionando mais organização, segurança e praticidade no gerenciamento do condomínio.
